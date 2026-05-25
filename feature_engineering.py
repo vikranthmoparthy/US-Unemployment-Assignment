@@ -59,4 +59,3 @@ for col in upper_tri.columns:
 df_eng.drop(columns=list(to_drop), inplace=True)
 
 df_eng.to_csv('us_macro_engineered.csv')
-print(f"Engineered dataset shape: {df_eng.shape}")
